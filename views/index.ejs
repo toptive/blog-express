@@ -11,7 +11,7 @@
   </nav>
   <main class="mt-5 px-8">
     <h1 class="text-5xl">Posts</h1>
-    <div class="mt-10 grid grid-cols-4 gap-4">
+    <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
       <% posts.forEach(function(post) { %>
         <div class="border border-gray-800 rounded p-8">
           <p><b>#<%= post.id %></b></p>
