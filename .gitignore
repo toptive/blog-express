@@ -131,3 +131,6 @@ dist
 
 #db
 *.db
+
+# tailwindcss output
+public/css/output.css
